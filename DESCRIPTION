@@ -1,0 +1,37 @@
+Package: BD
+Title: BD Crypto Algorithm
+Version: 0.0.1
+Authors@R: person("Jeff", "Lynch", email = "slackwar@gmail.com", role = c("aut","cre"))
+Description: This package provides algorithmic trading of coinbase and binance US
+Depends:
+    R (>= 3.3.0),
+	TTR,
+	rjson,
+	crayon,
+	beepr,
+	shiny,
+	shinydashboard,
+	htmltools,
+	plotly,
+	websocket,
+	RPostgres,
+	DBI,
+	parallel,
+	ranger
+License: GPL-2
+LazyData: true
+ByteCompile: true
+Imports:
+	TTR,
+	rjson,
+	crayon,
+	beepr,
+	shiny,
+	shinydashboard,
+	htmltools,
+	plotly,
+	websocket,
+	RPostgres,
+	DBI,
+	parallel,
+	ranger
